@@ -1,0 +1,20 @@
+{
+  "name": "waveorb-auth",
+  "version": "0.1.0",
+  "description": "Waveorb authentication functions",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run watch:app",
+    "watch:app": "WAVEORB_PORT=5021 nodemon -e '*' -i dist -x waveorb serve",
+    "test": "echo 'no test runner found'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eldoy/waveorb-auth"
+  },
+  "author": "Vidar Eldøy <vidar@eldoy.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "waveorb": "^0.42.7"
+  }
+}
